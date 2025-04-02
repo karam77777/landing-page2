@@ -1,0 +1,129 @@
+/* العام */
+body {
+  background-color: #fff;             /* خلفية بيضاء */
+  color: #8f1a1d;                     /* لون النص */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;                   /* Light */
+  font-size: 28pt;                    /* حجم الخط المطلوب */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* الهيدر */
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-height: 150px;   /* الطول الطبيعي للوجو */
+  height: auto;
+}
+
+/* قسم Hero */
+.hero {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero img {
+  width: 1125px;      /* عرض الصورة الرئيسية */
+  height: 613.5px;    /* طول الصورة الرئيسية */
+  object-fit: cover;
+}
+
+/* قسم About */
+.about {
+  font-size: 29px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30pt; /* يضيف مسافة 40pt بين كل سطر وسطر */
+text-align: justify;
+}
+.about p {
+  margin: 0;
+}
+
+
+/* قسم الأزرار */
+.buttons {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;  /* ترتيب الأزرار تحت بعض */
+  gap: 20px;
+  align-items: center;
+}
+.buttons img {
+  width: 1040px;       /* عرض كل زر */
+  height: 95.516px;    /* طول كل زر */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.buttons img:hover {
+  transform: scale(1.05); /* تأثير زوم بسيط عند التحويم */
+}
+
+/* قسم السوشيال ميديا */
+.social {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social img {
+  /* سيُعرض بحجمه الطبيعي */
+  width: auto;
+  height: auto;
+}
+
+/* قسم الاشتراك */
+.subscription {
+  position: center;
+  width: 100%;
+  transform: scale(1.05); /* تأثير زوم بسيط عند التحويم */
+}
+.subscription img {
+  width: 100%;
+  height: 700px;      /* طول الصورة */
+  object-fit: cover;
+  display: block;
+}
+.subscription-btn {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #8f1a1d;
+  padding: 15px 300px;
+  text-decoration: none;
+  font-size: 28pt;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.subscription-btn:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* الفوتر */
+footer {
+  background-color: #fffff;
+  color: #8f1a1d;
+  padding: 16px 0;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: 0;
+  font-size: 12pt;
+}
